@@ -1,0 +1,14 @@
+.progress-radial {
+  position: relative;
+  display: block;
+  margin: auto;
+  transform: translate(-50%, 50%);
+}
+
+.progress-radial-track {
+  fill: #A2C139;
+}
+
+.progress-radial-bar {
+  fill: #339933;
+}

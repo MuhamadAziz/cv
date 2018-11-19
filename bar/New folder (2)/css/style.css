@@ -1,0 +1,32 @@
+body {
+  background: #1C1C1C;
+}
+
+.skills-graph-circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 10px 0;
+  margin: auto;
+}
+.skills-graph-circle__title {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.skills-graph-circle__count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.skills-graph-circle__count:after {
+  content: '%';
+}
+.skills-graph-circle__bar {
+  stroke: tomato;
+}
+.skills-graph-circle__backg {
+  stroke: rgba(255, 99, 71, 0.3);
+}

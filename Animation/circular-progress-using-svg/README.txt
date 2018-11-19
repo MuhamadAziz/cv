@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/Garrett-/pen/jLevi.
+
+ Recreation of Sodhana Library's Circular Progress with SVG using Ractive.JS http://blog.sodhanalibrary.com/2014/04/circular-progress-with-svg-and.html Made this to learn Ractive with. Turned out well. I'm sure this can be updated a lot, but this was a good starting point for me. Please fork it and have fun yourself.

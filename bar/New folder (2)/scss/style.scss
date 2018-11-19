@@ -1,0 +1,33 @@
+body {
+	background: #1C1C1C;
+}
+.skills {
+	&-graph-circle {
+		position: relative;
+		width: 200px;
+		height: 200px;
+		padding: 10px 0;
+		margin: auto;
+		&__title {
+			color: white;
+			font-weight: 300;
+			letter-spacing: 2px;
+		}
+		&__count {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			color: white;
+			transform: translate(-50%, -50%);
+			&:after {
+				content: '%';
+			}
+		}
+		&__bar {
+			stroke: tomato;
+		}
+		&__backg {
+			stroke: transparentize(tomato, .7);
+		}
+	}
+}

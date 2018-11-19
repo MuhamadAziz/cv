@@ -1,0 +1,157 @@
+@import "compass/css3";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 45px auto;
+}
+
+#skills {
+  margin: 10px;
+  
+  span {
+    top: -37px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 300;
+    margin: 5px;
+  }
+}
+
+progress {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 2.5em;
+  width: 100%;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+  background-color: #329ad1;
+}
+
+progress::-moz-progress-bar {
+  background-color: #329ad;
+}
+
+.float-right {
+  display: block;
+  float: right;
+}
+
+.skills-split {
+  width: 20%;
+  float: left;
+  margin-top: -10px;
+  border: 1px solid #e2e2e2;
+}
+
+.section-skills {
+  background: #F6F6F6;
+  padding: 10px 5vw;
+  
+  .skills-container {
+    display: flex;
+    wiidth: 100%;
+    
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.section-stats {
+  width: 100%;
+  margin: 50px auto 0;
+  display: block; //Fallback for none-flex browsers
+  display: flex;
+  justify-content: space-around;
+  
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+  
+  .stat__item {
+    position: relative;
+    text-align: center;
+    margin-top: calc(50px - 1em);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    font-size: 2em; 
+    @include transition(0.5s ease all);
+    cursor: pointer;
+    
+    @media (max-width: 600px) {
+      margin: 50px;
+      margin-bottom: 100px;
+    }
+    
+    .stat-number {
+      height: 100px;
+      line-height: 105px;
+      color: black;
+      @include transition(0.5s ease all);
+      cursor: pointer;
+      
+      .stat-desc {
+        position: relative;
+        font-size: 11px;
+        line-height: 10px;
+        width: 115px;
+        color: black;
+        @include transition(0.5s ease all);
+        cursor: pointer;
+      }
+    }
+    
+    &:hover {
+      
+      &:before {
+        background: #2598D3;
+        top: 0;
+        box-shadow: none;
+      }
+      
+      .stat-number {
+        color: white;
+        line-height: 100px;
+        
+        .stat-desc {
+          color: #2598D3;
+        }
+      }
+    }
+
+    &:before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      @include transform(rotate(45deg));
+      transform-origin: 50% 50%;
+      cursor: pointer;
+      z-index: -1;
+      box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.1);
+      @include transition(0.5s ease all);
+    }
+  }
+}

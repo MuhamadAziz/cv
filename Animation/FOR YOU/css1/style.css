@@ -1,0 +1,306 @@
+.SkillBar {
+    width: 40%;
+    height: 50px;
+    position: relative;
+}
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}#Skill-JS {
+    animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}#Skill-XML {
+    animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}#Skill-C {
+    animation: Animate-C 4s;
+    -o-animation: Animate-C 4s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #970cc1;
+}
+@keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}#Skill-JAVA {
+    animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    background-color: #8e930c;
+}
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #5A69A6;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}#Skill-VBNET {
+    animation: Animate-VBNET 4s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #f8a51e;
+}
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}.Skill-Area {
+    z-index: 1;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}
