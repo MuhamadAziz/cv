@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CURRICULUM VITAE</title>
+		<link rel="stylesheet" type="text/css" href="CSSnya/style.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/font-awesome-4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="CSSnya/css1/style.css">
+		<link rel="stylesheet" type="text/css" href="CSSnya/Animate.css">
+		<link rel="stylesheet" type="text/css" href="CSSnya/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="CSSnya/css/style.css">
+		<script type="text/javascript" src="js2/js.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/js.js"></script>
+
+		
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="menu">
+				<div id="Foto1">
+					<div class="buled1"></div>
+					<h2>Muhamad <br>Aziz</h2>
+				</div>
+				<nav class="nav">
+					<ul>
+						<li><a href="#Home"class="scrool" class="hvr" ><i class="fa fa-home"></i>HOME</a></li>
+						<li><a href="#Profile"class="scrool"class="hvr" ><i class="fa fa-user"></i>PROFILE</a></li>
+						<li><a href="#Skils" class="scrool"class="hvr" >SKILS</a></li>
+						<li><a href="#Education"class="scrool"class="hvr"><i class="fa fa-book"></i>EDUCATION</a></li>
+						<li><a href="#Portofolio"class="scrool"class="hvr" ><i class="fa fa-folder-o"></i>PORTOFOLIO</a></li>
+						<li><a href="#Contact" class="scrool"	class="hvr"><i class="fa fa-phone"></i>CONTACT</a></li>
+					</ul>
+					 <div class="hello fadeInDown animated wow"></div>
+				</nav>
+			 </div>
+			<div class="content">
+				<div class="home" id="Home">
+					<div class="kata">
+						<h1>I'm a Profesional Web & Gaphich<br> Design From Indonesia, Cipayung Puncak</h1>
+					</div>
+					<div class="social">
+						<a href="http.www.facebook.com" target="_blank">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="http://dribbble.com" target="_blank">
+							<i class="fa fa-dribbble"></i>
+						</a>
+						<a href="http.//twitter.com" target="_blank">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+				<div class="Profile" id="Profile">
+					<div class="profile1">
+						<h4><u>Hello.</u></h4>
+							 <link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+							<h1>MyName Is
+						  <span
+						     class="txt-rotate"
+						     data-period="2000"
+						     data-rotate='[ "Muhammad Aziz Im Web Design Im From Indonesia" ]'></span>
+							</h1>
+						<div class="bio"></div>
+						 <div class="sisi">
+						 	<div class="gam fadeInRight wow animated"></div>
+						 	<br>
+						 	<br>
+			                <div class="tentang fadeInRight wow animated"><p>Nama : Muhammad Aziz</p>
+			                </div>
+			                <div class="gam1 fadeInRight wow animated"></div>
+			                <div class="tentang fadeInRight wow animated"><p>Alamat : Kp.Cipayung 03/05, Megamendung</p>
+			                </div>
+			                <div class="gam2 fadeInRight wow animated"></div>
+			                <div class="tentang fadeInRight wow animated"><p>Tempat Tanggal Lahir : Bogor, 10 Maret 2000</p></div>
+			                <div class="gam3 fadeInRight wow animated"></div>
+			                <div class="tentang fadeInRight wow animated"><p>Sekolah : SMK WIKRAMA Bogor</p></div>
+			                <div class="gam4 fadeInRight wow animated"></div>
+			                <div class="tentang fadeInRight wow animated"><p>Komp. Keahlian : Rekayasa Perangkat Lunak (RPL)</p>
+			                <i class="fa fa-facebook"> Muhammad Azis Lf </i>
+			                <br>
+			                <br>
+			                <i class="fa fa-twitter">Azis</i>
+			                <br>
+			              
+			                <i class="fa fa-telphone"></i>
+
+                </div>
+						 </div>
+					</div>
+				</div>
+			<script src="CSSnya/js/index.js"></script>
+
+				<div class="Skils" id="Skils">
+					 <center>
+					<div id="SkillBox">
+					        <center><p>My Skills</p></center>
+					        <img src="http://2.bp.blogspot.com/--aPlnH6X1YA/UEf7yeJ3gGI/AAAAAAAATgw/TgMK9IVzipk/s1600/Skills%2B-%2BPawan%2BMall.png" alt="Skill - Pawan Mall" />
+					<div class="SkillBar">
+			    		<div id="Skill-HTML" class=" wow animated"> 
+			      			<span class="Skill-Area ">HTML</span>
+				    	</div>
+					    <span class="PercentText" class=" wow animated">40%</span>
+					</div>
+			  
+			  		<div class="SkillBar" class=" wow animated">
+			  			<div id="Skill-CSS" class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">CSS/CSS3</span>
+					    </div>
+					    <span class="PercentText " class=" wow animated">40%</span>
+			  		</div>
+
+			  		<div class="SkillBar"class=" wow animated">
+			    		<div id="Skill-jQuery"class=" wow animated">
+			      			<span class="Skill-Area "class=" wow animated">jQuery</span>
+				    </div>
+					    <span class="PercentText " class=" wow animated">15%</span>
+					</div>
+			  
+			  		<div class="SkillBar"class=" wow animated">
+			    		<div id="Skill-JS"class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">Javascript</span>
+					    </div>
+					     <span class="PercentText " class=" wow animated">15%</span>
+			  		</div>
+			  
+			  		<div class="SkillBar" class=" wow animated">
+			    		<div id="Skill-Boostrap" class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">Boostrap </span>
+					    </div>
+					    <span class="PercentText " class=" wow animated">25%</span>
+			  		</div>
+			  
+			    	<div class="SkillBar" class=" wow animated">
+			    		<div id="Skill-C"class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">C#</span>
+				       	</div>
+				       	<span class="PercentText " class=" wow animated">15%</span>
+			  		</div>
+			  
+				    <div class="SkillBar"class=" wow animated">
+					    <div id="Skill-Photoshop"class=" wow animated">
+					      <span class="Skill-Area " class=" wow animated">PhotoShop</span>
+					    </div>
+					    <span class="PercentText " class=" wow animated">50%</span>
+				  </div>
+			  
+			    	<div class="SkillBar"class=" wow animated">
+			    		<div id="Skill-PHP"class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">PHP </span>
+					    </div>
+					    <span class="PercentText " class=" wow animated">15%</span>
+			  		</div>
+			  
+			    	<div class="SkillBar" class=" wow animated">
+			    		<div id="Skill-SQL" class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">SQL </span>
+					    </div>
+					     <span class="PercentText "class=" wow animated">10%</span>
+			  		</div>
+			  
+			    	<div class="SkillBar" class=" wow animated">
+			    		<div id="Skill-VBNET" class=" wow animated">
+			      			<span class="Skill-Area " class=" wow animated">VB.NET</span>
+					    </div>
+					    <span class="PercentText " class=" wow animated">25%</span>
+			  		</div>
+			  </div>
+			  </center>
+			</div>
+				<div class="Education" id="Education" > 
+					<h1><u>EDUCATION</u></h1>
+					<div class="azis">
+						<ul>
+							<li class="aAzis azis1 ">
+								<div class="kotak ">
+									<div class="lingkaranno" >
+										<h2>'15</h2>
+									</div>
+									<div class="Ket ket1">
+										<h2>2015<br>Student of <br>SMK WIKRAMA
+
+										</h2>
+									</div>
+								</div>
+							</li>
+							<li class="aAzis azis2">
+								<div class="kotak">
+									<div class="lingkaranno ">
+										<h2>'12</h2>
+									</div>
+									<div class="Ket ket2 ">
+										<h2>2012-2015<br>Student of <br>SMPI Al-Barokah 
+
+										</h2>
+									</div>
+								</div>
+							</li>
+							<li class="aAzis azis3">
+								<div class="kotak">
+									<div class="lingkaranno">
+										<h2>'06</h2>
+									</div>
+									<div class="Ket ket3">
+										<h2>2006-2012<br>Student of<br>SDN Cipayung 02
+
+										</h2>
+									</div>
+								</div>
+							</li>
+							<li class="aAzis azis4">
+								<div class="kotak">
+									<div class="lingkaranno">
+										<h2>'06</h2>
+									</div>
+									<div class="Ket ket4">
+										<h2>
+
+										</h2>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			<div class="Portofolio" id="Portofolio">
+					<div class="huruf">
+						<h4><u>Portofolio</u></h4>
+				<div class="kotak1 left fadeInRight wow animated">
+          <div class="kota kota1">
+            <div class="key">
+                <div class="judul">
+                  <h1>Environment</h1>
+                </div>
+            </div>
+          </div>
+          <div class="kota kota2">
+            <div class="kuy">
+              <div class="judul">
+                <h1>Environment</h1>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="kotak2 left fadezoomIn wow animated">
+          <div class="koti koti1">
+            <div class="kos">
+              <div class="judul">
+                <h1>Environment</h1>
+              </div>
+            </div>
+          </div>
+          <div class="koti koti2">
+            <div class="kis">
+              <div class="judul">
+                <h1>Environment</h1>
+          </div>
+        </div>
+
+      </div>
+    
+    </div>
+					<div class="contact" id="Contact">
+						<div class="contact-form">
+							<div class="contact-info">
+									<h3><span>Contact Us</span> Now</h3>
+									<p>Curriculum vitae</p>
+									<label>08568698881</label>
+									<a href="mailto:azis49146@gmail.com">info@SmkWikramaBogor.com</a>
+									<i> </i>
+									<form>
+										<input type="text" placeholder="Name">
+										<input type="text" placeholder="Email">
+										<textarea placeholder="message"> </textarea>
+										<input type="submit" value="Send Message"> 
+									</form>
+							</div>
+						</div>
+
+					</div>
+					<div class="footer"></div>
+				</div>
+			</div>	
+			 <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+              new WOW().init();
+    </script>
+	</body>
+</html>
